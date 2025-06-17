@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Epopeia - Género Literário</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Aplicação educativa sobre a Epopeia para alunos do ensino secundário">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>A Epopeia</h1>
+            <p class="subtitle">Uma viagem pelo género literário épico</p>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#introducao" class="active">Introdução</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#exemplos">Grandes Epopeias</a></li>
+                <li><a href="#os-lusiadas">Os Lusíadas</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#cria-epopeia">Cria a tua Epopeia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introducao" class="section active">
+            <div class="container">
+                <h2>O que é uma Epopeia?</h2>
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <p>A <strong>epopeia</strong>, também chamada de <em>poesia épica</em> ou <em>heroica</em>, é um género literário cuja composição consiste de um <strong>poema longo e narrativo</strong>, geralmente versando sobre os feitos de um herói, acontecimentos históricos ou míticos, e elementos fundamentais a uma cultura.</p>
+                        
+                        <p>É um texto que se dedica a expor episódios gloriosos, engrandecer seus personagens principais e registrar para a posteridade suas realizações, dignas de serem lembradas e condecoradas.</p>
+                        
+                        <div class="info-box">
+                            <h3>Origem da Palavra</h3>
+                            <p>De origem grega, a palavra "epopeia" (épopoia) é composta pelo substantivo "épos" (aquilo que é expresso pela fala) e por um derivado do verbo "poien" (fazer, fabricar).</p>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <figure>
+                            <img src="img/homer-statue.jpg" alt="Estátua de Homero, autor das epopeias Ilíada e Odisseia" class="feature-image">
+                            <figcaption>Estátua de Homero, autor das epopeias Ilíada e Odisseia</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                <div class="timeline">
+                    <h3>Evolução Histórica da Epopeia</h3>
+                    <div class="timeline-container">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2000 a.C.</div>
+                            <div class="timeline-content">
+                                <h4>Epopeia de Gilgamesh</h4>
+                                <p>Considerada a obra literária mais antiga da humanidade</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Séc. VIII a.C.</div>
+                            <div class="timeline-content">
+                                <h4>Ilíada e Odisseia</h4>
+                                <p>Homero estabelece o modelo clássico da epopeia</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">19 a.C.</div>
+                            <div class="timeline-content">
+                                <h4>Eneida</h4>
+                                <p>Virgílio adapta o modelo grego para a cultura romana</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">1572</div>
+                            <div class="timeline-content">
+                                <h4>Os Lusíadas</h4>
+                                <p>Camões cria a grande epopeia portuguesa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="caracteristicas" class="section">
+            <div class="container">
+                <h2>Características da Epopeia</h2>
+                
+                <div class="tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="estrutura">Estrutura</button>
+                        <button class="tab-button" data-tab="elementos">Elementos Narrativos</button>
+                        <button class="tab-button" data-tab="estilo">Estilo</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="estrutura">
+                        <h3>Estrutura da Epopeia</h3>
+                        <p>Para ser classificada como epopeia, a obra deve conter as seguintes partes estruturais:</p>
+                        
+                        <div class="feature-cards">
+                            <div class="feature-card">
+                                <div class="card-icon">1</div>
+                                <h4>Proposição</h4>
+                                <p>Parte introdutória, em que o poeta apresenta o tema que será cantado</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="card-icon">2</div>
+                                <h4>Invocação</h4>
+                                <p>Momento em que o poeta invoca as musas ou deuses, para que lhes deem fôlego para narrar o longo poema</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="card-icon">3</div>
+                                <h4>Dedicatória</h4>
+                                <p>De uso facultativo, é a parte em que o poeta dedica a alguém a epopeia</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="card-icon">4</div>
+                                <h4>Narração</h4>
+                                <p>Parte em que o poeta narra, de fato, os grandes acontecimentos praticados pelo protagonista</p>
+                            </div>
+                        </div>
+                        
+                        <div class="interactive-element">
+                            <h4>Estrutura Interativa</h4>
+                            <p>Arraste os elementos para a ordem correta da estrutura de uma epopeia:</p>
+                            <div class="drag-container">
+                                <div class="drag-item" draggable="true" data-order="3">Dedicatória</div>
+                                <div class="drag-item" draggable="true" data-order="1">Proposição</div>
+                                <div class="drag-item" draggable="true" data-order="4">Narração</div>
+                                <div class="drag-item" draggable="true" data-order="2">Invocação</div>
+                            </div>
+                            <div class="drop-container">
+                                <div class="drop-slot" data-slot="1"></div>
+                                <div class="drop-slot" data-slot="2"></div>
+                                <div class="drop-slot" data-slot="3"></div>
+                                <div class="drop-slot" data-slot="4"></div>
+                            </div>
+                            <div class="feedback-message"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="elementos">
+                        <h3>Elementos Narrativos</h3>
+                        <ul class="feature-list">
+                            <li><strong>Narrador</strong>: Um eu lírico que conduz a narrativa, com foco na apresentação dos fatos</li>
+                            <li><strong>Distanciamento</strong>: O narrador mantém distância daquilo que é narrado</li>
+                            <li><strong>Ação</strong>: Narração de acontecimentos com encadeamento progressivo</li>
+                            <li><strong>Personagens elevadas</strong>: Heróis nacionais cujos feitos os aproximam de deuses</li>
+                            <li><strong>Partes autónomas</strong>: Divisão em partes organizadas de maneira autossuficiente</li>
+                            <li><strong>Mitologia</strong>: Presença constante de personagens mitológicas</li>
+                            <li><strong>Desafios</strong>: O protagonista enfrenta trabalhos difíceis e situações de perigo</li>
+                        </ul>
+                        
+                        <div class="info-box">
+                            <h4>O Herói Épico</h4>
+                            <p>O herói da epopeia não se destaca apenas por características individuais, mas por representar os valores e virtudes de todo um povo ou civilização.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="estilo">
+                        <h3>Estilo e Temática</h3>
+                        
+                        <div class="content-columns">
+                            <div class="column">
+                                <h4>Aspectos Temáticos</h4>
+                                <ul>
+                                    <li>Aventuras de um herói e suas façanhas guerreiras</li>
+                                    <li>Representação de homens "superiores" em uma cultura</li>
+                                    <li>Presença do elemento maravilhoso ou sobrenatural</li>
+                                    <li>Interferência dos deuses nas ações do herói</li>
+                                    <li>Contexto histórico de povos e civilizações</li>
+                                </ul>
+                            </div>
+                            <div class="column">
+                                <h4>Aspectos Formais</h4>
+                                <ul>
+                                    <li>Poema narrativo com narrador onisciente</li>
+                                    <li>Estruturado em estrofes e versos agrupados em cantos</li>
+                                    <li>Linguagem objetiva e elevada</li>
+                                    <li>Tom grandioso e estilo elevado</li>
+                                    <li>Glorificação dos feitos apresentados</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="quote-box">
+                            <blockquote>
+                                "A epopeia é a sistematização formal de uma fala essencial proferida pelos poetas que contavam sobre a origem e a verdade do mundo."
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="exemplos" class="section">
+            <div class="container">
+                <h2>Grandes Epopeias</h2>
+                
+                <div class="epic-cards">
+                    <div class="epic-card">
+                        <div class="epic-image">
+                            <img src="img/iliad.jpg" alt="Ilíada de Homero">
+                        </div>
+                        <div class="epic-content">
+                            <h3>Ilíada</h3>
+                            <div class="epic-meta">
+                                <span class="author">Homero</span>
+                                <span class="date">Séc. VIII a.C.</span>
+                            </div>
+                            <p>Narra um dos episódios da Guerra de Troia, protagonizada por Aquiles, guerreiro e semideus, que tomado por uma cólera impetuosa, volta-se contra Agamenon.</p>
+                            <div class="epic-excerpt">
+                                <h4>Trecho</h4>
+                                <blockquote>
+                                    "Canta, ó deusa, a cólera de Aquiles, o Pelida<br>
+                                    (mortífera!, que tantas dores trouxe aos Aqueus<br>
+                                    e tantas almas valentes de heróis lançou no Hades..."
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="epic-card">
+                        <div class="epic-image">
+                            <img src="img/odyssey.jpg" alt="Odisseia de Homero">
+                        </div>
+                        <div class="epic-content">
+                            <h3>Odisseia</h3>
+                            <div class="epic-meta">
+                                <span class="author">Homero</span>
+                                <span class="date">Séc. VIII a.C.</span>
+                            </div>
+                            <p>Centrada no herói Odisseu (Ulisses), rei de Ítaca, narra suas peripécias e viagem de volta para casa após a Guerra de Troia, que durou 10 anos.</p>
+                            <div class="epic-excerpt">
+                                <h4>Trecho</h4>
+                                <blockquote>
+                                    "Fala-me, Musa, do homem astuto que tanto vagueou,<br>
+                                    depois que de Troia destruiu a cidadela sagrada.<br>
+                                    Muitos foram os povos cujas cidades observou..."
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="epic-card">
+                        <div class="epic-image">
+                            <img src="img/aeneid.jpg" alt="Eneida de Virgílio">
+                        </div>
+                        <div class="epic-content">
+                            <h3>Eneida</h3>
+                            <div class="epic-meta">
+                                <span class="author">Virgílio</span>
+                                <span class="date">19 a.C.</span>
+                            </div>
+                            <p>Epopeia centrada em Eneias, herói mítico sobrevivente da Guerra de Troia, cujo destino seria a fundação da cidade de Roma.</p>
+                            <div class="epic-excerpt">
+                                <h4>Trecho</h4>
+                                <blockquote>
+                                    "Eu, que entoava na delgada avena<br>
+                                    Rudes canções, e egresso das florestas,<br>
+                                    Fiz que as vizinhas lavras contentassem<br>
+                                    A avidez do colono, empresa grata..."
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="os-lusiadas" class="section">
+            <div class="container">
+                <h2>Os Lusíadas</h2>
+                
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <h3>A Grande Epopeia Portuguesa</h3>
+                        <p><strong>Os Lusíadas</strong> (1572), de Luís Vaz de Camões, é considerada a grande epopeia em língua portuguesa. A obra narra as aventuras e descobrimentos dos navegadores portugueses, especialmente a viagem de Vasco da Gama às Índias.</p>
+                        
+                        <p>Camões utiliza a estrutura clássica da epopeia para narrar, em 8.816 versos, um momento crucial da história portuguesa: as Grandes Navegações. Ao invés de construir uma narrativa meramente informativa, o autor insere elementos mitológicos, como as figuras de Baco (contrário aos portugueses) e Vénus (favorável aos lusitanos).</p>
+                        
+                        <div class="info-box">
+                            <h4>Estrutura d'Os Lusíadas</h4>
+                            <p>A obra está dividida em 10 cantos, com um total de 1.102 estrofes, cada uma com 8 versos (oitavas).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="image-content">
+                        <figure>
+                            <img src="img/camoes.jpg" alt="Retrato de Luís Vaz de Camões" class="feature-image">
+                            <figcaption>Luís Vaz de Camões, autor d'Os Lusíadas</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                <div class="epic-map">
+                    <h3>Mapa da Viagem de Vasco da Gama</h3>
+                    <div class="map-container">
+                        <img src="img/map-route.jpg" alt="Mapa da rota de Vasco da Gama" class="map-image">
+                        <div class="map-point" style="top: 30%; left: 20%;" data-location="Lisboa">
+                            <span class="point-label">Lisboa</span>
+                        </div>
+                        <div class="map-point" style="top: 45%; left: 25%;" data-location="Cabo Verde">
+                            <span class="point-label">Cabo Verde</span>
+                        </div>
+                        <div class="map-point" style="top: 60%; left: 35%;" data-location="Cabo da Boa Esperança">
+                            <span class="point-label">Cabo da Boa Esperança</span>
+                        </div>
+                        <div class="map-point" style="top: 50%; left: 70%;" data-location="Calecute">
+                            <span class="point-label">Calecute (Índia)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="epic-excerpt-featured">
+                    <h3>Trecho d'Os Lusíadas (Canto I)</h3>
+                    <blockquote>
+                        <p>
+                            As armas e os barões assinalados<br>
+                            Que, da Ocidental praia Lusitana,<br>
+                            Por mares nunca de antes navegados<br>
+                            Passaram ainda além da Taprobana<br>
+                            E em perigos e guerras esforçados<br>
+                            Mais do que prometia a força humana,<br>
+                            E entre gente remota edificaram<br>
+                            Novo Reino, que tanto sublimaram;
+                        </p>
+                        <p>
+                            E também as memórias gloriosas<br>
+                            Daqueles Reis que foram dilatando<br>
+                            A Fé, o Império, e as terras viciosas<br>
+                            De África e de Ásia andaram devastando,<br>
+                            E aqueles que por obras valerosas<br>
+                            Se vão da lei da Morte libertando:<br>
+                            Cantando espalharei por toda parte,<br>
+                            Se a tanto me ajudar o engenho e arte.
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="section">
+            <div class="container">
+                <h2>Quiz sobre Epopeia</h2>
+                <p class="section-intro">Teste os teus conhecimentos sobre a Epopeia respondendo às perguntas abaixo:</p>
+                
+                <div class="quiz-container">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <div class="progress-text">Pergunta <span id="current-question">1</span> de <span id="total-questions">5</span></div>
+                    </div>
+                    
+                    <div class="quiz-content">
+                        <div class="quiz-question" id="question-1">
+                            <h3>O que é uma epopeia?</h3>
+                            <div class="quiz-options">
+                                <label class="quiz-option">
+                                    <input type="radio" name="q1" value="a">
+                                    <span class="option-text">Um poema lírico sobre sentimentos pessoais</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q1" value="b">
+                                    <span class="option-text">Um poema narrativo longo sobre feitos heroicos</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q1" value="c">
+                                    <span class="option-text">Uma peça de teatro sobre conflitos familiares</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q1" value="d">
+                                    <span class="option-text">Um romance histórico em prosa</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="quiz-question hidden" id="question-2">
+                            <h3>Qual é a estrutura correta de uma epopeia?</h3>
+                            <div class="quiz-options">
+                                <label class="quiz-option">
+                                    <input type="radio" name="q2" value="a">
+                                    <span class="option-text">Introdução, desenvolvimento, clímax, conclusão</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q2" value="b">
+                                    <span class="option-text">Prólogo, atos, cenas, epílogo</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q2" value="c">
+                                    <span class="option-text">Proposição, invocação, dedicatória, narração</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q2" value="d">
+                                    <span class="option-text">Exposição, complicação, resolução, desfecho</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="quiz-question hidden" id="question-3">
+                            <h3>Quem é o autor d'Os Lusíadas?</h3>
+                            <div class="quiz-options">
+                                <label class="quiz-option">
+                                    <input type="radio" name="q3" value="a">
+                                    <span class="option-text">Fernando Pessoa</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q3" value="b">
+                                    <span class="option-text">Luís Vaz de Camões</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q3" value="c">
+                                    <span class="option-text">Gil Vicente</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q3" value="d">
+                                    <span class="option-text">Eça de Queirós</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="quiz-question hidden" id="question-4">
+                            <h3>Qual destas obras NÃO é uma epopeia?</h3>
+                            <div class="quiz-options">
+                                <label class="quiz-option">
+                                    <input type="radio" name="q4" value="a">
+                                    <span class="option-text">Ilíada</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q4" value="b">
+                                    <span class="option-text">Odisseia</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q4" value="c">
+                                    <span class="option-text">Eneida</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q4" value="d">
+                                    <span class="option-text">Os Maias</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="quiz-question hidden" id="question-5">
+                            <h3>O que é narrado n'Os Lusíadas?</h3>
+                            <div class="quiz-options">
+                                <label class="quiz-option">
+                                    <input type="radio" name="q5" value="a">
+                                    <span class="option-text">A Guerra de Troia</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q5" value="b">
+                                    <span class="option-text">A fundação de Roma</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q5" value="c">
+                                    <span class="option-text">As Grandes Navegações portuguesas</span>
+                                </label>
+                                <label class="quiz-option">
+                                    <input type="radio" name="q5" value="d">
+                                    <span class="option-text">A Reconquista da Península Ibérica</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="quiz-result hidden">
+                            <h3>Resultado</h3>
+                            <p>Acertaste <span id="correct-answers">0</span> de <span id="total-answers">5</span> perguntas!</p>
+                            <div class="result-message"></div>
+                            <button id="restart-quiz" class="btn">Tentar Novamente</button>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-controls">
+                        <button id="prev-question" class="btn btn-secondary" disabled>Anterior</button>
+                        <button id="next-question" class="btn">Próxima</button>
+                        <button id="submit-quiz" class="btn btn-primary hidden">Verificar Respostas</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cria-epopeia" class="section">
+            <div class="container">
+                <h2>Cria a tua Epopeia</h2>
+                <p class="section-intro">Usa esta ferramenta para criar a tua própria mini-epopeia seguindo a estrutura clássica:</p>
+                
+                <div class="create-epic-container">
+                    <form id="epic-form">
+                        <div class="form-section">
+                            <h3>1. Proposição</h3>
+                            <p class="form-help">Apresenta o tema principal da tua epopeia</p>
+                            <div class="form-group">
+                                <label for="epic-title">Título da Epopeia:</label>
+                                <input type="text" id="epic-title" placeholder="Ex: A Conquista do Conhecimento">
+                            </div>
+                            <div class="form-group">
+                                <label for="epic-theme">Tema Principal:</label>
+                                <textarea id="epic-theme" rows="3" placeholder="Descreve o tema principal que será cantado na tua epopeia..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3>2. Invocação</h3>
+                            <p class="form-help">Invoca uma musa ou divindade para te ajudar a narrar</p>
+                            <div class="form-group">
+                                <label for="epic-invocation">Invocação:</label>
+                                <textarea id="epic-invocation" rows="3" placeholder="Ó musa da sabedoria, inspira-me a contar..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3>3. Dedicatória (opcional)</h3>
+                            <p class="form-help">Dedica a tua epopeia a alguém especial</p>
+                            <div class="form-group">
+                                <label for="epic-dedication">Dedicatória:</label>
+                                <textarea id="epic-dedication" rows="2" placeholder="Dedico esta obra a..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3>4. Narração</h3>
+                            <p class="form-help">Narra os feitos heroicos do teu protagonista</p>
+                            <div class="form-group">
+                                <label for="epic-hero">Nome do Herói/Heroína:</label>
+                                <input type="text" id="epic-hero" placeholder="Ex: Ulisses, Aquiles, etc.">
+                            </div>
+                            <div class="form-group">
+                                <label for="epic-setting">Cenário:</label>
+                                <input type="text" id="epic-setting" placeholder="Ex: Antigo Império, Mares Desconhecidos, etc.">
+                            </div>
+                            <div class="form-group">
+                                <label for="epic-narrative">Narrativa:</label>
+                                <textarea id="epic-narrative" rows="6" placeholder="Conta a história do teu herói, suas aventuras e desafios..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" id="preview-epic" class="btn">Pré-visualizar</button>
+                            <button type="button" id="save-epic" class="btn btn-primary">Guardar Epopeia</button>
+                            <button type="reset" id="reset-epic" class="btn btn-secondary">Limpar</button>
+                        </div>
+                    </form>
+                    
+                    <div class="epic-preview hidden">
+                        <h3>Pré-visualização da tua Epopeia</h3>
+                        <div class="preview-content">
+                            <div id="preview-title" class="preview-title"></div>
+                            <div id="preview-proposicao" class="preview-section">
+                                <h4>Proposição</h4>
+                                <div class="preview-text"></div>
+                            </div>
+                            <div id="preview-invocacao" class="preview-section">
+                                <h4>Invocação</h4>
+                                <div class="preview-text"></div>
+                            </div>
+                            <div id="preview-dedicatoria" class="preview-section">
+                                <h4>Dedicatória</h4>
+                                <div class="preview-text"></div>
+                            </div>
+                            <div id="preview-narracao" class="preview-section">
+                                <h4>Narração</h4>
+                                <div class="preview-text"></div>
+                            </div>
+                        </div>
+                        <div class="preview-actions">
+                            <button id="edit-epic" class="btn btn-secondary">Editar</button>
+                            <button id="share-epic" class="btn">Partilhar</button>
+                            <button id="print-epic" class="btn">Imprimir</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="saved-epics">
+                    <h3>Epopeias Guardadas</h3>
+                    <div id="saved-epics-list" class="saved-epics-list">
+                        <p class="no-saved-epics">Ainda não guardaste nenhuma epopeia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>A Epopeia</h3>
+                    <p>Aplicação educativa sobre o género literário épico para alunos do ensino secundário.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#introducao">O que é uma Epopeia</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#exemplos">Grandes Epopeias</a></li>
+                        <li><a href="#os-lusiadas">Os Lusíadas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Atividades</h3>
+                    <ul>
+                        <li><a href="#quiz">Quiz</a></li>
+                        <li><a href="#cria-epopeia">Cria a tua Epopeia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 A Epopeia - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
